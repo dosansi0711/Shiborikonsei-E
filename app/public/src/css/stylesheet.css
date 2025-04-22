@@ -1,0 +1,528 @@
+@charset "UTF-8";
+/* 仮設ヘッダー部分 */
+header{
+    background-color:rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding: 0 1em;
+}
+.header_container{
+    text-align: center;
+    overflow: hidden;
+    clear: both;
+    font-size: 22px;
+}
+.header_container img{
+    float: left;
+    width: 150px;
+    margin-left: 15%;
+    padding: 20px 0;
+}
+.header_container nav {
+    float: right;
+}
+.header_container nav ul li{
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.header_container .header_nav a{
+    color: #040000;
+    text-decoration: none;
+}
+
+/* メインビジュアル */
+:root{
+    --background: #FFF4E6;
+    --foreground: #00335B;
+    --shadow: #00345b4d;
+    --white: #FFFFFF;
+}
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.about_main{
+    font-family: "Shippori Mincho B1", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 48px 18vw; */
+    position: relative;
+}
+
+/* 絞りについて */
+.about_main::after{
+    content: "";
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .06;
+    background-image: url(../img/page-texture.jpg);
+}
+
+.main-visual{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/main-visual.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.main-visual .title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main-visual .subtitle{
+    font-size: 21px;
+}
+
+.intro{
+    width: 100%;
+    padding: 96px 8vw;
+    display: flex;
+    align-items: stretch;
+    gap: 120px;
+}
+
+.intro .banner{
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/intro-banner-top.jpg);
+    align-items: center;
+    gap: 120px;
+    padding: 120px 48px;
+    color: var(--white);
+}
+
+.intro-top .banner{
+    background-image: url(../img/intro-banner-top.jpg);
+}
+
+.intro-bottom .banner{
+    background-image: url(../img/intro-banner-bottom.jpg);
+}
+
+.banner .title{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.banner .description{
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.patterns{
+    width: 50%;
+    position: relative;
+}
+
+.patterns .pattern{
+    position: absolute;
+    width: 36%;
+    height: auto;
+}
+
+.p-1{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.p-2{
+    top: 0;
+    right: 0;
+}
+
+.p-3{
+    bottom: 0;
+    right: 10%;
+}
+
+.p-4{
+    bottom: 0;
+    left: 20%;
+}
+
+.p-5{
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.p-6{
+    top: 0;
+    left: 0;
+}
+
+.work-process{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-process .title{
+    width: 100vw;
+    height: fit-content;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--foreground);
+}
+
+.work-process .title .content{
+    width: fit-content;
+    height: fit-content;
+}
+
+.work-process .title h2{
+    font-size: 24px;
+}
+
+.divider{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.divider svg{
+    width: auto;
+    height: 36px;
+    aspect-ratio: 1/1;
+}
+
+.divider::before, .divider::after{
+    content: "";
+    display: block;
+    background-color: var(--foreground);
+    width: 100%;
+    height: 1px;
+}
+
+.work-process .row{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+}
+
+.work-process .row img{
+    width: 50%;
+    height: auto;
+}
+
+.wrapper{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.wp-content{
+    width: fit-content;
+    padding: 36px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+}
+
+.wp-content h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.wp-content p{
+    line-height: 2;
+    font-size: 18px;
+}
+
+.shibori-types{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    padding: 96px 8vw;
+}
+
+.shibori-types .title{
+    width: fit-content;
+    font-size: 24px;
+}
+
+.shibori-types .row{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    gap: 24px;
+}
+
+.type-card{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.type-card img{
+    width: 100%;
+    height: auto;
+}
+
+.type-card p{
+    font-size: 18px;
+    margin: 24px;
+    font-weight: bold;
+}
+
+/* 会社概要 */
+.profile_main{
+    border-top: 1px solid #303030;
+    width: 100%;
+    height: auto;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.profile{
+    background-color: var(--white);
+    width: 80%;
+    height: auto;
+    border: 1px solid #BABABA;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.profile .title_field{
+    padding: 20px 0;
+    width: 200px;
+    height: 50px;
+    border-bottom: 2px solid #040000;
+    margin: 0 auto;
+}
+
+.profile .title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.profile_content{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: auto;
+    text-align: left;
+}
+
+.profile_content tr{
+    border-top: 1px solid #BABABA;
+    display: flex;
+    padding: 15px 0;
+    vertical-align: top;
+}
+
+.profile_content th{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    width: 110px;
+}
+
+.profile_content td{
+    padding-left: 100px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000;
+    display: table-cell;
+}
+
+.profile_content td ul{
+    list-style: none;
+    margin: 6px 0;
+}
+
+.profile_content .contents{
+    list-style: disc;
+}
+
+.profile_content .contents li{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.profile_content .contents_sub{
+    list-style: circle;
+}
+
+.profile_content td ul li h3{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+.profile_content td ul li p{
+    font-size: 16px;
+    padding-left: 6%;
+    margin: 10px 0;
+}
+
+.profile_content .content_img{
+    height: 400px;
+}
+
+.profile_content .content_img img{
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* 仮設フッター部分 */
+footer{
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* 画面サイズによるスタイル変更 */
+
+/* 絞りについて */
+@media screen and (max-width: 599px) {
+    .main-visual .title{
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .intro{
+        width: 100%;
+        flex-direction: column;
+        padding: 5vw;
+        display: flex;
+        align-items: baseline;
+        height: auto;
+        position: relative;
+        overflow: visible;
+    }
+
+    .intro .banner{
+        width: 100%;
+    }
+
+    .intro .banner .content{
+        z-index: 100;
+    }
+
+    .intro .patterns{
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .p-1{
+        top: 40%;
+    }
+
+    .p-3{
+        right: 0;
+        /* bottom: -50px; */
+    }
+
+    .p-4{
+        left: 0;
+    }
+
+    .p-5{
+        top: 40%;
+    }
+
+    .work-process .row{
+        flex-direction: column;
+    }
+
+    .wp-content{
+        width: 100%;
+        padding: 24px 5vw;
+    }
+
+    .work-process img{
+        width: 100%  !important;
+        height: auto;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .row.reverse{
+        flex-direction: column-reverse;
+    }
+
+    .shibori-types{
+        padding: 96px 5vw;
+    }
+
+    .shibori-types .row{
+        flex-direction: column;
+    }
+}
+/* 会社概要 */
+@media screen and (max-width: 1020px) {
+    .header_container nav ul li{
+        margin-left: 5px;
+    }
+    .profile_content td{
+        padding-left: 4%;
+    }
+    .profile_content .content_img{
+        height: 330px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .profile_content tr{
+        flex-flow: column;
+    }
+    .profile_content th{
+        padding-bottom: 15px;
+    }
+    .profile_content td{
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 660px) {
+    .profile_content{
+        margin: 0 min(10px, 5vw);
+    }
+    .profile_content .content_img{
+        height: 268px;
+    }
+}
