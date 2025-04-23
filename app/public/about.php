@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>絞り体験について</title>
     <!-- links -->
-        <link rel="stylesheet" href="./src/css/reset.css">
-        <link rel="stylesheet" href="./src/css/stylesheet.css">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/styl.css">
+        <link rel="stylesheet" href="src/css/stylesheet.css">
     <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -134,5 +135,6 @@
             </article>
         </section>
     </main>
+    <?php include "src/include/footer.php"; ?>
 </body>
 </html>
