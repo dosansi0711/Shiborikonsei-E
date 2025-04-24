@@ -68,7 +68,7 @@
         
         <ul class="post-list">
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -77,7 +77,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -86,7 +86,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -95,7 +95,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -104,7 +104,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -113,7 +113,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -122,7 +122,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>
@@ -131,7 +131,7 @@
                 </a>
             </li>
             <li>
-                <a href="blog1.php">
+                <a href="index.php">
                     <div class="img">
                         <img src="src/img/409118109_315768541051488_1602527123086148204_n.webp 1.png" alt="">
                     </div>

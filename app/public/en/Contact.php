@@ -47,7 +47,7 @@
                     TEL.052-624-0029　　　※ 9:00～18:00 Excluding weekends and holidays
                     The personal information you provide will be used only with your consent.
                     Unless there is a legitimate reason, we will not disclose or provide the information to a third party.</p>
-                <div class="btn"><input type="submit" value="送信"></div>
+                <div class="btn"><input type="submit" value="sending"></div>
             </form>
         </section>
     </main>

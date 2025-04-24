@@ -21,6 +21,7 @@
   font-size: 14px;
   margin-right: 10px;
   transition: all 0.3s ease;
+  flex-direction: column;
 }
 .tab-list li:last-child {
   margin-right: 0;
@@ -39,6 +40,9 @@
   gap: 12px;
   margin-bottom: 120px;
   display: none;
+}
+.products-list .page-title {
+  text-align: center;
 }
 .products-list.active {
   display: grid;
@@ -144,8 +148,8 @@ Company
     background-color: #fff;
     display: block;
     border: solid 1px #1f1f1f;
-    font-size: 11px;
-    padding: 20px 10px;
+    font-size: 14px;
+    padding: 16px 28px;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -221,6 +225,7 @@ Company
     margin-right: -120px; /* 画像に重ねる */
     margin-top: 80px;     /* 下にずらす */
     order: 1;             /* ← テキストを左に */
+    flex-direction: column;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -230,6 +235,7 @@ Company
     font-size: 24px;
     margin-bottom: 40px;
     font-weight: bold;
+    text-align: center;
 }
 .company .text .description {
     font-size: 21px;
@@ -316,8 +322,8 @@ Company
     margin: 0 auto;
     padding: 60px 20px;
     /* background-color: #fef8ee; */
-    margin-bottom: 150px;
-    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
   
   .price-box {

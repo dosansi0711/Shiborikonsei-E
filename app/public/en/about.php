@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About the aperture experience</title>
+    <title>About the aperture experience - Konsei Co., Ltd.</title>
     <!-- links -->
         <link rel="stylesheet" href="src/css/reset.css">
         <link rel="stylesheet" href="src/css/styl.css">
@@ -79,23 +79,24 @@
                     <div class="wrapper">
                         <div class="wp-content">
                             <h2>Bundling</h2>
-                            <p>We will think of a design that can be expressed using Narumi Shibori.<br>
-                                Based on the design, use a knife or a pigeon hole to cut<br>
-                                Punch holes and make a template.<br>
-                                The design is transferred by brushing the blue liquid onto the surface.</p>
+                            <p>It can be sewn using thread and needles,<br>
+                                or tied using a special tie-dyeing stand.<br>
+                                There are also other techniques,<br>
+                                such as squeezing the fabric between boards.<br>
+                                The image shows how to tighten the winding aperture.</p>
                         </div>
                     </div>
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-2.jpg" alt="">
                 </article>
                 <article class="row">
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-3.jpg" alt="">
                     <div class="wrapper">
                         <div class="wp-content">
                             <h2>Decoration</h2>
-                            <p>We will think of a design that can be expressed using Narumi Shibori.<br>
-                                Based on the design, use a knife or a pigeon hole to cut<br>
-                                Punch holes and make a template.<br>
-                                The design is transferred by brushing the blue liquid onto the surface.</p>
+                            <p>Dyeing is done.<br>
+                                We use different dyes depending on the material,<br>
+                                and dye it carefully so that the tie-dyeing doesn't come undone.</p>
+                                
                         </div>
                     </div>
                 </article>
@@ -109,7 +110,7 @@
                                 The design is transferred by brushing the blue liquid onto the surface.</p>
                         </div>
                     </div>
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-4.jpg" alt="">
                 </article>
             </div>
         </section>

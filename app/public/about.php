@@ -79,23 +79,24 @@
                     <div class="wrapper">
                         <div class="wp-content">
                             <h2>括り</h2>
-                            <p>鳴海絞りで表現できるデザインを考えます。<br>
-                                図案をもとに、小刀やハト目抜きなどで<br>
-                                穴をあけて型紙をつくります。<br>
-                                刷毛で青花液を刷り込んで図案を写します。</p>
+                            <p>糸と針を使って縫ったり、<br>
+                                専用の絞り台を使って括ります。<br>
+                                他にも、<br>
+                                板などではさむ絞り技法もあります。<br>
+                                画像は巻上げ絞りを括る様子です。</p>
                         </div>
                     </div>
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-2.jpg" alt="">
                 </article>
                 <article class="row">
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-3.jpg" alt="">
                     <div class="wrapper">
                         <div class="wp-content">
                             <h2>装飾</h2>
-                            <p>鳴海絞りで表現できるデザインを考えます。<br>
-                                図案をもとに、小刀やハト目抜きなどで<br>
-                                穴をあけて型紙をつくります。<br>
-                                刷毛で青花液を刷り込んで図案を写します。</p>
+                            <p>染色をします。<br>
+                                素材によって染料を変えて、<br>
+                                絞りの括りが解けないように、<br>
+                                注意して染めます。</p>
                         </div>
                     </div>
                 </article>
@@ -109,7 +110,7 @@
                                 刷毛で青花液を刷り込んで図案を写します。</p>
                         </div>
                     </div>
-                    <img src="./src/img/work-process/wp-1.jpg" alt="">
+                    <img src="./src/img/work-process/wp-4.jpg" alt="">
                 </article>
             </div>
         </section>
