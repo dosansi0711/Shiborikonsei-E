@@ -348,7 +348,7 @@
                 </div>
               </section>
         </ul>
-        <!-- UX対応パッチ -->
+        <!-- UX対応の追加部分 -->
         <ul class="tab-list">
           <li class="tab-all">団体体験</li>
           <li class="tab-sofa">雪花絞り体験</li>

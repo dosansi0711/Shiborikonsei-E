@@ -347,7 +347,7 @@
                 </div>
               </section>
         </ul>
-        <!-- UX対応パッチ -->
+        <!-- UX対応の追加部分 -->
         <ul class="tab-list">
           <li class="tab-all">Group Experience</li>
           <li class="tab-sofa">Snowflake dyeing experience</li>
