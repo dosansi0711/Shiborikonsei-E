@@ -347,6 +347,12 @@
                 </div>
               </section>
         </ul>
+        <!-- UX対応パッチ -->
+        <ul class="tab-list">
+          <li class="tab-all">Group Experience</li>
+          <li class="tab-sofa">Snowflake dyeing experience</li>
+          <li class="tab-desk">Workshop</li>
+        </ul>
       </main>
     <?php include "src/include/footer.php"; ?>
 </body>

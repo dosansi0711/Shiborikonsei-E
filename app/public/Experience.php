@@ -348,6 +348,12 @@
                 </div>
               </section>
         </ul>
+        <!-- UX対応パッチ -->
+        <ul class="tab-list">
+          <li class="tab-all">団体体験</li>
+          <li class="tab-sofa">雪花絞り体験</li>
+          <li class="tab-desk">ワークショップ</li>
+        </ul>
       </main>
     <?php include "src/include/footer.php"; ?>
 </body>

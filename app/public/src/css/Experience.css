@@ -14,9 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: solid 1px #1f1f1f;
-  border-left: solid 1px #1f1f1f;
-  border-right: solid 1px #1f1f1f;
+  border: solid 1px #1f1f1f;
   cursor: pointer;
   font-size: 14px;
   margin-right: 10px;
