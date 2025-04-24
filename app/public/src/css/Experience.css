@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 .tab-list {
   display: flex;
   justify-content: center;
@@ -147,8 +148,8 @@ Company
     background-color: #fff;
     display: block;
     border: solid 1px #1f1f1f;
-    font-size: 16px;
-    padding: 20px;
+    font-size: 14px;
+    padding: 16px 28px;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -321,7 +322,8 @@ Company
     margin: 0 auto;
     padding: 60px 20px;
     /* background-color: #fef8ee; */
-    margin-bottom: 100px;
+    margin-bottom: 40px;
+    margin-top: 30px;
   }
   
   .price-box {

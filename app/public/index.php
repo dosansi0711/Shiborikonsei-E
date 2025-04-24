@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="utf-8">
-        <title>Interior Design</title>
+        <title>名古屋市緑区の伝統工芸・鳴海絞り - 有限会社こんせい</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="src/img/こんせいロゴ（バンタン様へ）.jpg">
@@ -47,7 +47,7 @@
         </div>
         <div class="main-img wrapper">
             <div class="main-link">
-                <a class="img-sibori" href="index 3.php">
+                <a class="img-sibori" href="about.php">
                     <div class="sample_box"><img src="src/img/123 1.png"></div>
                     <span class="img-text">絞りについて</span>
                 </a>

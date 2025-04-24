@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
     <meta charset="utf-8">
-    <title>Interior Design</title>
+    <title>会社概要 - 有限会社こんせい</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="src/img/こんせいロゴ（バンタン様へ）.jpg">

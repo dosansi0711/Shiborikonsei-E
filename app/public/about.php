@@ -7,11 +7,14 @@
     <!-- links -->
         <link rel="stylesheet" href="src/css/reset.css">
         <link rel="stylesheet" href="src/css/styl.css">
-        <link rel="stylesheet" href="src/css/stylesheet.css">
+        <link rel="stylesheet" href="src/css/about.css">
     <!-- fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./src/js/jquery.inview.min.js"></script>
+        <script src="./src/js/main.js"></script>
 </head>
 <body>
     <?php include "src/include/header.php"; ?>

@@ -5,7 +5,6 @@
     --shadow: #00345b4d;
     --white: #FFFFFF;
 }
-
 body{
     font-family: "Shippori Mincho B1", serif;
     background-color: var(--background);

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Experience</title>
+    <title>絞り体験 - 有限会社こんせい</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="./src/img/こんせいロゴ（バンタン様へ）.jpg">
