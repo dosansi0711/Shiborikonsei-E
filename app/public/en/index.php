@@ -11,7 +11,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        
         <link rel="stylesheet" href="./src/css/styl.css">
         <link rel="stylesheet" href="./src/css/top-page.css">
         <link rel="stylesheet" href="./src/css/style.css">
